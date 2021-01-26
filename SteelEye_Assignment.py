@@ -93,12 +93,7 @@ def parse_xml_and_get_ziplink(xmlfile):
             return (filedict['filename'], filedict['download_link'])
 
 
-# DOWNLOAD THE ZIP FILE
-def download_zip(url, zipfilename):
-    # fire the http request and download the file
-    zipf = open(zipfilename, "wb")
-    zipf.write(urlopen(url).read())
-    zipf.close()
+
 
 
 
@@ -209,8 +204,7 @@ def main():
         print('First DLTINS file name = ' + zipfilename)
         print('First DLTINS file link = ' + ziplink)
 
-        # download the zip file
-        #download_zip(ziplink, zipfilename)
+       
 
         print('Downloaded zip file : ' + zipfilename + "//"+ ziplink)
 
