@@ -8,12 +8,12 @@ Assignment
 	lxml 	-> For etree
 	zipfile
 	pandas
-  DateTime
-  Time
-  Requests
-  Certifi
-  Ssl
-  BytesIo
+	DateTime
+	Time
+	Requests
+	Certifi
+	Ssl
+	BytesIo
 
    Before running the code, please install the abovesaid libraies using pip3 or other installation tool in your Python3 environment
 
