@@ -4,8 +4,8 @@ Assignment
 1) The program is coded for Python3 and needs the following libraries:
 
 	urllib
-	xml.dom -> For minidom
-	lxml 	-> For etree
+	xml.dom 
+	lxml 	
 	zipfile
 	pandas
 	DateTime
